@@ -26,7 +26,7 @@
 		"children": ["total-products.v2", "order-by.v2"]
 	},
 	"flex-layout.row#results": {
-		"children": ["flex-layout.col#filter", "flex-layout.col#search", "search-content"]
+		"children": ["flex-layout.col#filter", "flex-layout.col#search"]
 	},
 	"flex-layout.col#filter": {
 		"props": {
@@ -34,7 +34,9 @@
 		},
 		"children": ["filter-navigator.v3"]
 	},
-	"flex-layout.col#search": {},
+	"flex-layout.col#search": {
+		"children": ["search-content"]
+	},
 	"search-content": {
 		"blocks": ["gallery", "not-found"]
 	},
