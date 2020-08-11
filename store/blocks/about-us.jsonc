@@ -33,14 +33,14 @@
 	"tab-list#home": {
 		"children": ["tab-list.item#home1", "tab-list.item#home2"]
 	},
+	"tab-content#home": {
+		"children": ["tab-content.item#home1", "tab-content.item#home2"]
+	},
 	"tab-list.item#home1": {
 		"props": { "label": "Major Appliances", "defaultActiveTab": true, "tabId": "majorAppliances" }
 	},
 	"tab-list.item#home2": {
 		"props": { "label": "Electronics", "tabId": "electronics" }
-	},
-	"tab-content#home": {
-		"children": ["tab-content.item#home1", "tab-content.item#home2"]
 	},
 	"tab-content.item#home1": {
 		"children": ["rich-text#home1"],
