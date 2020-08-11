@@ -45,13 +45,13 @@
 	"tab-content.item#home1": {
 		"children": ["rich-text#home1"],
 		"props": {
-			"id": "majorAppliances"
+			"tabId ": "majorAppliances"
 		}
 	},
 	"tab-content.item#home2": {
 		"children": ["rich-text#home2"],
 		"props": {
-			"id": "electronics"
+			"tabId ": "electronics"
 		}
 	},
 	"rich-text#home1": {
