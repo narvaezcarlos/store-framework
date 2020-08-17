@@ -56,7 +56,10 @@
 		}
 	},
 	"tab-content.item#home2": {
-		"children": ["iframe"]
+		"children": ["iframe"],
+		"props": {
+			"tabId": "electronics"
+		}
 	},
 	"iframe": {
 		"props": {
