@@ -6,11 +6,10 @@
 		}
 	},
 	"vtex.menu@2.x:submenu#major-appliances": {
-		"props": { "orientation": "vertyical" },
-		"children": ["menu-item#refrigerators", "menu-item#ovens", "menu-item#washers"]
+		"children": ["vtex.menu@2.x:menu#major-appliances"]
 	},
-	"vtex.menu@2.x:submenu#small-appliances": {
-		"props": { "orientation": "vertyical" },
-		"children": ["menu-item#mixers", "menu-item#toasters", "menu-item#coffee"]
+	"vtex.menu@2.x:menu#major-appliances": {
+		"props": { "orientation": "vertical" },
+		"children": ["menu-item#refrigerators", "menu-item#ovens", "menu-item#washers"]
 	}
 }
