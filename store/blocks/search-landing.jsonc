@@ -10,12 +10,10 @@
 	},
 	"search-result-layout.customQuery": {
 		"props": {
-			"minWidth": "100%",
-			"src": "https://planetamusik.com/blog/wp-content/uploads/2017/12/curso-guitarra-gratis.jpg",
 			"querySchema": {
 				"orderByField": "OrderByReleaseDateDESC",
 				"hideUnavailableItems": true,
-				"search-products-count-per-page": 8,
+				"maxItemsPerPage": 8,
 				"queryField": "Blue Top Retro Camera",
 				"mapField": "ft"
 			}
