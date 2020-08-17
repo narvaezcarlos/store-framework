@@ -1,0 +1,16 @@
+{
+	"vtex.menu@2.x:menu#categories": {
+		"children": ["menu-item#major-appliances", "menu-item#small-appliances", "menu-item#electronics"],
+		"props": {
+			"orientation": "horizontal"
+		}
+	},
+	"vtex.menu@2.x:submenu#major-appliances": {
+		"props": { "orientation": "vertyical" },
+		"children": ["menu-item#refrigerators", "menu-item#ovens", "menu-item#washers"]
+	},
+	"vtex.menu@2.x:submenu#small-appliances": {
+		"props": { "orientation": "vertyical" },
+		"children": ["menu-item#mixers", "menu-item#toasters", "menu-item#coffee"]
+	}
+}
