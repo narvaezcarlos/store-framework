@@ -2,7 +2,12 @@
 	"store.custom#landing": {
 		"blocks": ["image#landingbanner", "search-result-layout.customQuery"]
 	},
-	"image#landingbanner": {},
+	"image#landingbanner": {
+		"props": {
+			"minWidth": "100%",
+			"src": "https://planetamusik.com/blog/wp-content/uploads/2017/12/curso-guitarra-gratis.jpg"
+		}
+	},
 	"search-result-layout.customQuery": {
 		"props": {
 			"querySchema": {
